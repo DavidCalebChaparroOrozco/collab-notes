@@ -1,0 +1,19 @@
+[project]
+name = "collab-notes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "David Caleb Chaparro Orozco", email = "davidcaleb1998@hotmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "django>=6.1",
+]
+
+[project.scripts]
+collab-notes = "collab_notes:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
