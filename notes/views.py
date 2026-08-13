@@ -1,4 +1,5 @@
-from django.http import HttpResponse
+from django.https import HttpResponse
 
+# Create your views here.
 def index(request):
-    return HttpResponse("<h1> Collab Notes </h1> <p> Welcome to the Notes App! </p>")
+    return HttpResponse("<h1> Collab Notes </h1> <p> Your space to think, write and share your ideas. </p> ")
