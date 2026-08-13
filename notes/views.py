@@ -1,3 +1,4 @@
-from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+def index(request):
+    return HttpResponse("<h1> Collab Notes </h1> <p> Welcome to the Notes App! </p>")
