@@ -8,4 +8,5 @@ def home(request):
         "<h1>Collab Notes</h1> <p>Your ideas, in order.</p>"
         f"<p>Saved notes: {notes}</p>"
         "<footer>Collab Notes 226</footer>"
+        "<p> DEBUG MODE ON </p>"
     )
