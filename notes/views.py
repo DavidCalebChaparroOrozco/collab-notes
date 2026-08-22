@@ -7,5 +7,5 @@ def home(request):
     return HttpResponse(
         "<h1>Collab Notes</h1> <p>Your ideas, in order.</p>"
         f"<p>Saved notes: {notes}</p>"
-        "<footer>Collab Notes 226</footer>"
+        "<footer>Collab Notes 2026</footer>"
     )
